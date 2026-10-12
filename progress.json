@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:02:49.188Z",
+  "generated_at": "2026-10-12T09:18:27.055Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -39,6 +39,19 @@
       "last_pushed_at": "2026-10-11T08:02:47.249Z",
       "language": "python",
       "lines": 17
+    },
+    "problem:1036": {
+      "kind": "problem",
+      "id": "1036",
+      "title": "Trim Input Tokens to Fit Model Context Window",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/1036",
+      "path": "problems/1036-trim-input-tokens-to-fit-model-context-window",
+      "first_solved_at": "2026-10-12T09:18:25.596Z",
+      "last_pushed_at": "2026-10-12T09:18:25.596Z",
+      "language": "python",
+      "lines": 23
     }
   }
 }
