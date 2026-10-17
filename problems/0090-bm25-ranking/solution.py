@@ -13,13 +13,13 @@ def calculate_bm25_scores(corpus, query, k1=1.5, b=0.75):
 		sc = 0; tfc = Counter(d)
 		for q in query:
 			if q not in tfc: continue 
-			# IDF 
-			idf = np.log((N + 1) / (df[q] + 1))
+			# IDF
+			idf = np.log((N + 1)/(df[q] + 1))
 			tf = tfc[q]
 			# SATURATE 
-			sc += idf * (tf*(k1 + 1))/(tf + k1 * (1 - b + b * len(d)/avgdl))
+			sc += idf * (tf * (k1 + 1))/(tf + k1 * (1 - b + b * len(d)/avgdl))
 		# SCORE 
 		scores.append(sc)
-	return [round(sc, 3) for sc in scores]
+	return np.round(scores, 3)
 	
 	
