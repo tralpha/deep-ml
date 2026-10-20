@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**10** solved · 10 problems · 0 labs · 0 math
+**11** solved · 11 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -22,6 +22,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-13 | [solution](problems/0025-single-neuron-with-backpropagation) |
 | [Trim Input Tokens to Fit Model Context Window](https://www.deep-ml.com/problems/1036) | medium | 2026-10-12 | [solution](problems/1036-trim-input-tokens-to-fit-model-context-window) |
 | [Build a Transformer Encoder Layer](https://www.deep-ml.com/problems/491) | hard | 2026-10-11 | [solution](problems/0491-build-a-transformer-encoder-layer) |
+| [Combined Token Sampling Pipeline (Temperature + Top-k + Top-p)](https://www.deep-ml.com/problems/419) | hard | 2026-10-20 | [solution](problems/0419-combined-token-sampling-pipeline-temperature-top-k-top-p) |
 
 ---
 
