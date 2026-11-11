@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:27:57.973Z",
+  "generated_at": "2026-11-11T09:55:19.664Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -156,6 +156,19 @@
       "last_pushed_at": "2026-11-05T12:27:56.895Z",
       "language": "python",
       "lines": 30
+    },
+    "problem:385": {
+      "kind": "problem",
+      "id": "385",
+      "title": "Beam Search Decoding",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/385",
+      "path": "problems/0385-beam-search-decoding",
+      "first_solved_at": "2026-11-11T09:55:18.597Z",
+      "last_pushed_at": "2026-11-11T09:55:18.597Z",
+      "language": "python",
+      "lines": 31
     }
   }
 }
